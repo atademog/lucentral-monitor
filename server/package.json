@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "systray2": "^2.1.4"
+  }
+}
