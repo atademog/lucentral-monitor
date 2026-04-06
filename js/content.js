@@ -200,7 +200,7 @@ function iniciarMonitoramento() {
               if (isNoCamera) {
                 enviarParaLog(nome, "SEM VÍDEO", "Câmera desconectada")
               } else {
-                enviarParaLog(nome, "CÂMERA CONECTADA", "Sinal de vídeo detectado")
+                enviarParaLog(nome, "VÍDEO CONECTADO", "Sinal de vídeo detectado")
               }
             }
             window.estados[nome].noCameraAnterior = isNoCamera
